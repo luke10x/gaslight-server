@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "build": "echo 'No build step needed'",
+    "start": "deno run -A server.ts"
+  },
+  "deploy": {
+    "project": "gaslight-server",
+    "entrypoint": "server.ts"
+  },
+  "compilerOptions": {
+    "strict": true
+  }
+}
